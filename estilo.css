@@ -158,7 +158,8 @@ body{
 
     .introduction{
         height: 100vh;
-        background: url(./img/img-introduction.jpg) top center/100vw fixed no-repeat;
+        background: url(./img/img-introduction.jpg) top center fixed no-repeat;
+        background-size: cover;
     }
 
     .title-introduction{
