@@ -157,7 +157,7 @@ body{
 /* introduction */
 
     .introduction{
-        height: 90vh;
+        height: 100vh;
         background: url(./img/img-introduction.jpg) top center/100vw fixed no-repeat;
     }
 
@@ -165,7 +165,7 @@ body{
         font-size: 30px;
         font-weight: 600;
         line-height: 45px;
-        position: relative;
+        /* position: relative; */
     }
 
     .social-medias{
@@ -388,7 +388,8 @@ body{
         background-color: #fff; 
         padding: 0px 5px;
         height: auto;
-        margin: 2px;      
+        margin: 2px;
+        transition: background 400ms ease;     
     }
 
 /* end footer */
