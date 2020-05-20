@@ -243,14 +243,17 @@ body{
         background: url(./img/sobre-mim/business.svg) left center/40px no-repeat;
     }
 
-
 /* end who i'm */
 
 /* projects */
 
+    .section-projects{
+        padding: 3% 0%;
+    }
+
     .projects{
         margin-top: 50px;
-        width: 80%;
+        width: 90%;
     }
     
     .project{
@@ -399,15 +402,7 @@ body{
 
     /* tablet's */
 
-        @media only screen and (max-width: 976px){
-            
-            /* header */
-
-                nav > ul > li > a{
-                    font-size: 16px;
-                }
-
-            /* end header */
+        @media only screen and (max-width: 1056px){
 
             /* title and subtitle of the sections */
 
@@ -425,26 +420,86 @@ body{
 
             /* apresentation */
 
-            .introduction{
-                height: 90vh;
+                .introduction{
+                    height: 90vh;
+                }
+            
+                .title-introduction{
+                    font-size: 25px;
+                }
+
+                .introduction > section > p{
+                    font-weight: 400;
+                }
+
+                .social-medias{
+                    height: 90vh;
+                    width: auto;
+                    position: absolute;
+                    right: 0;
+                    margin-right: 25px;
+                }
+            /* end apresentation */
+
+            /* about me */
+
+            .who-me{
+                padding-left: 0px;
+                padding-right: 5px;
             }
         
-            .title-introduction{
-                font-size: 25px;
+            .picture{
+                width: 45%;
+                height: 500px;
+            }
+            
+            .title-about-me{
+                font-size: 28px;
+                background-size: 36px;
             }
 
-            .introduction > section > p{
-                font-weight: 400;
+            .text{
+                font-size: 16px;
             }
 
-            .social-medias{
-                height: 90vh;
-                width: auto;
-                position: absolute;
-                right: 0;
-                margin-right: 25px;
+            /* end about me */
+
+            /* portfolio */
+
+            .projects{
+                margin-top: 50px;
+                width: 99%;
             }
-            /* end apresentation */
+            
+            .project{
+                width: 30%;
+                min-height: 360px;
+                /* text-align: center; */
+                margin: 5px 4px;
+                border-radius: 4px;
+                cursor: pointer;
+                padding: 10px;
+            }
+
+            .title-projects{
+                font-size: 18px;
+                margin: -3px 0px 5px;
+            }
+        
+            .text-projects{
+                font-size: 12px;
+            }
+
+            .project-img{
+                min-height: 150px;
+            }
+
+            .project:hover > .project-img {
+                background-position: center center;
+                background-size: 110%;
+            }
+
+            /* end portfolio */
         }
 
     /* end media tablet's */
