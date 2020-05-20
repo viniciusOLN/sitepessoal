@@ -394,3 +394,59 @@ body{
     }
 
 /* end footer */
+
+/* media queries */
+
+    /* tablet's */
+
+        @media only screen and (max-width: 976px){
+            
+            /* header */
+
+                nav > ul > li > a{
+                    font-size: 16px;
+                }
+
+            /* end header */
+
+            /* title and subtitle of the sections */
+
+                .title-section{
+                    font-size: 22px;
+                }
+                
+                .subtitle-section{
+                    font-size: 16px;
+                    font-weight: 500;
+                    letter-spacing: 100;
+                }
+
+            /* end title and subtitle of the sections */
+
+            /* apresentation */
+
+            .introduction{
+                height: 90vh;
+            }
+        
+            .title-introduction{
+                font-size: 25px;
+            }
+
+            .introduction > section > p{
+                font-weight: 400;
+            }
+
+            .social-medias{
+                height: 90vh;
+                width: auto;
+                position: absolute;
+                right: 0;
+                margin-right: 25px;
+            }
+            /* end apresentation */
+        }
+
+    /* end media tablet's */
+
+/* end media queries */
