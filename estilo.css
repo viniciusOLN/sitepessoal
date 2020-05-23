@@ -132,6 +132,10 @@ body{
         visibility: hidden;
     }
 
+    .close{
+        display: none;
+    }
+
     .brand{
         font-weight: bolder;
         letter-spacing: 2pt;
@@ -544,6 +548,7 @@ body{
         }
 
         .close{
+            display: block;
             position: absolute;
             top: 0;
             right: 0;
@@ -570,6 +575,11 @@ body{
             align-items: center;
             justify-content: center;
             flex-direction: column;
+        }
+
+        .container-social-medias{
+
+            
         }
     }    
 
