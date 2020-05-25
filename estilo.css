@@ -460,6 +460,7 @@ body{
             .picture{
                 width: 45%;
                 height: 500px;
+                margin-left: 10px;
             }
             
             .title-about-me{
@@ -627,23 +628,76 @@ body{
             }
 
             .social-medias{
-               left: 50%; 
-               top: 95%;
-               transform: translate(-28%,-50%);
+               height: auto;
+               width: 100%;
+               left: 0; 
+               top: 90%;
                margin: 0;
             }
 
             .container-social-medias{
                 flex-direction: row;
+                margin: 0 auto;
             }
 
         /* end apresentation */
 
         /* about-me */
 
-            
+            .container-about{
+                flex-direction: column;
+            }
+
+            .picture{
+                width: auto;
+                margin: 25px;
+                background-position: center;
+            }
+
+            .about-me{
+                width:auto;
+                padding: 0;
+                margin: 25px;
+            }
+
+            .title-about-me{
+                font-size: 25px;
+                line-height: 22px;
+                background-size: 25px;
+                text-indent: 35px;
+            }
+
+            .text{
+                line-height: 24px;
+            }
 
         /* end about-me */
+
+        /* projects */
+
+            .project{
+                width: 250px;
+            }
+
+        /* end projects */
+
+        /* contact */
+
+            .form-map{
+                flex-direction: column;
+                align-items: center;
+                width: 100%;
+            }
+
+            .map{
+                width: 100%;
+            }
+
+            .form{
+                width: 96%;
+            }
+
+        /* end contact */
     }    
 
     /* end media phones */
