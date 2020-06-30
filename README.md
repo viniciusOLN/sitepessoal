@@ -40,3 +40,4 @@ Num Aluno | Nome | Nota
 2 | Maria | 9.00
 
 
+Estou com dúvida no comando ´scanf('%u',&a)´ da linguagem *C*
