@@ -28,6 +28,6 @@ Lista Demarcada
 
 Lista de tarefas
 
-- [ ] Preciso estudar Inglês
-- [ ] Preciso estudar javascript
+- [x] Preciso estudar Inglês
+- [x] Preciso estudar javascript
 - [ ] Preciso estudar C
