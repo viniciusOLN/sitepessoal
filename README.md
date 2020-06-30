@@ -34,3 +34,9 @@ Lista de tarefas
 
 [Acesse meu github](https://github.com/viniciusoln)
 
+Num Aluno | Nome | Nota 
+---|---|---
+1 | Vinícius Oliveira do Nascimento | 10.00
+2 | Maria | 9.00
+
+
