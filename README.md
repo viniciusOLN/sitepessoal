@@ -25,3 +25,9 @@ Lista Demarcada
 - alo
 - elo
 - alsdlad
+
+Lista de tarefas
+
+- [ ] Preciso estudar Inglês
+- [ ] Preciso estudar javascript
+- [ ] Preciso estudar C
