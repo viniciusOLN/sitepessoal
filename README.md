@@ -41,3 +41,6 @@ Num Aluno | Nome | Nota
 
 
 Estou com dúvida no comando `scanf('%u',&a)` da linguagem *C*
+
+:hand:
+
