@@ -200,12 +200,44 @@ body{
         border-radius: 50px;
         padding: 0px 12px;
         transition: background-color .3s linear;
+        position: relative;
     }
 
-    .link-social:hover{
+    .link-social:before{
+        content: '';
+        width: 0px;
+        margin: 0 auto;
+        height: 0px;
+        border-radius: 50%;
         background-color: #00275069;
-        fill: #fff;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%) ;
     }
+
+    .link-social:hover:before{
+        animation: social 500ms ease forwards;
+    }
+
+    /* animation social buttons */
+
+        @keyframes social{
+
+            0%{
+                width: 0px;
+                height: 0px;
+                opacity: 0;
+            }
+
+            100%{
+                width: 55px;
+                height: 49px;
+                opacity: 1;
+            }   
+        }
+
+    /* end animation social buttons */
 
     .facebook{
         background: url(../img/redes-sociais/facebook.svg) center center/20px no-repeat;
