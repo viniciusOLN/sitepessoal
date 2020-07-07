@@ -268,7 +268,7 @@ body{
     .picture{
         width: 50%;
         height: 85vh;
-        background: url(../img/sobre-mim/picture-about-me.jpg) left top/100vh fixed no-repeat;
+        background: url(../img/sobre-mim/picture-about-me.jpg) left top/100vh no-repeat;
     }
 
     .about-me{
