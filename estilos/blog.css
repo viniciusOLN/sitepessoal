@@ -50,6 +50,10 @@ body{
     justify-content: center;
 }
 
+.justify-between{
+    justify-content: space-between;
+}
+
 .align-center{
     align-items: center;
 }
@@ -105,6 +109,12 @@ body{
     .dropdown{
         margin: 0px;
         padding: 0px;
+        display: none;
+    }
+    
+    .menu{
+        width: 78%;
+        padding: 10px 0px;
     }
 
 /* specify header */
