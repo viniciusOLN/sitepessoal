@@ -54,6 +54,10 @@ body{
     justify-content: space-between;
 }
 
+.justify-end{
+    justify-content: flex-end;
+}
+
 .align-center{
     align-items: center;
 }
@@ -106,6 +110,12 @@ body{
 
 /* specify header */
 
+    .header{
+        position: relative;
+        width: 79%;
+        float: right;
+    }
+
     .dropdown{
         margin: 0px;
         padding: 0px;
@@ -114,7 +124,20 @@ body{
     
     .menu{
         width: 78%;
-        padding: 10px 0px;
+        padding: 15px 0px;
     }
 
-/* specify header */
+/* end specify header */
+
+/* vertical section */
+
+    .vertical_section{
+        display: inline-block;
+        height: 100vh;
+        width: 300px;
+        position: fixed;
+        top: 0;
+        left: 0;
+    }
+
+/* end vertical section */
