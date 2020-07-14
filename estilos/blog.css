@@ -116,10 +116,24 @@ body{
         float: right;
     }
 
+    .drop:hover > .dropdown{
+        display: block;
+    }
+
     .dropdown{
         margin: 0px;
         padding: 0px;
         display: none;
+        position: absolute;
+        border-radius: 4px;
+    }
+
+    .dropdown li{
+        padding: 10px;
+    }
+
+    .dropdown li:hover{
+        background-color: #293847;
     }
     
     .menu{
