@@ -126,6 +126,7 @@ body{
         display: none;
         position: absolute;
         border-radius: 4px;
+        box-shadow: 2px 2px 50px rgba(0, 0, 0, 0.37);
     }
 
     .dropdown li{
