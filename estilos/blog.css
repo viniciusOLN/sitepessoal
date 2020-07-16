@@ -193,13 +193,23 @@ body{
         letter-spacing: 100;
     }
 
+    .icons{
+        position: absolute;
+        bottom: 20px;
+    }
+
     .icon{
-        width: 100px;
-        height: auto;
+        margin: 10px;
+        width: auto;
+        text-decoration: none;
+    }
+
+    .icon:hover i{
+        color: rgb(67, 4, 139);
     }
 
     .icon i{
-        width: 100%;
+        font-size: 22px;
         color: #fff;
     }
 
