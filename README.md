@@ -13,7 +13,6 @@ Inspiração para um possivel portfolio
 Html 5
 Css 3
 
-***
 # Acesso
 
 Link: https://viniciusoln.github.io/sitepessoal/
