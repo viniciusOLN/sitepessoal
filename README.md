@@ -8,6 +8,13 @@ Inspiração para um possivel portfolio
 
 ***
 
+# Tecnologias
+
+Html 5
+Css 3
+
+***
+
 Link: https://viniciusoln.github.io/sitepessoal/
 
 
